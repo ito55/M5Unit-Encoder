@@ -21,7 +21,7 @@
   - Arduino IDE
   - ESP32ボード定義
   - **M5Unified** ライブラリ (最新版)
-  - **M5Unit-Encoder** ライブラリ (Library Managerで不通に導入できる最新版)
+  - **M5Unit-Encoder** ライブラリ (Library Managerで普通に導入できる最新版)
 
 ## 3. テスト手順
 
@@ -44,12 +44,12 @@
 ## 4. 期待される動作
 
 - 画面表示内容に変化がある。
-- Serial Portへ数値が出力ｓれる。
+- Serial Portへ数値が出力される。
 - Unit Encoderの操作に応じて、LEDの色が変化する。
 
 ## 5. 結果の報告
 
-動作確認が完了しましたら、結果を[Pull Request](https://github.com/m5stack/M5Unit-Encoder/pull/7)へコメントでお知らせください。
+動作確認が完了しましたら、結果を[Pull Request](https://github.com/m5stack/M5Unit-Encoder/pull/7)へのコメントでお知らせください。
 
 - **正常に動作した場合:**
   - 「（お使いのボード名）で正常に動作しました」といった簡単なコメントをいただけると幸いです。
@@ -59,3 +59,8 @@
     - 使用したボード名 (例: M5Stack Core2)
     - シリアルモニタの出力内容
     - どのような問題が発生したかの具体的な説明
+
+## 6. このbranchとフォルダの取り扱い方針
+
+この`verification`フォルダと、このファイルを含むブランチは動作確認用のものです。
+そのため、最終的なPull Requestには含まれません。
