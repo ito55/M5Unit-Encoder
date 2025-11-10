@@ -1,7 +1,6 @@
 # M5Unified対応Unit Encoder Example sketch 動作確認資料
 
 このドキュメントは、新しいExampleスケッチ `[Unit_Encoder_M5Unified.ino]` の動作確認手順を説明するものです。
-ご協力いただきありがとうございます！
 
 **Pull Request:** [[Feature/example: Add M5Unified compatible example sketch (v0.0.3)](https://github.com/m5stack/M5Unit-Encoder/pull/7)]
 
